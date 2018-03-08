@@ -1,0 +1,99 @@
+.contactinfo{
+    position:fixed;
+}
+
+.row-contact {
+  line-height: 20px;
+  margin-right: -21px;
+  margin-left: -15px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  opacity:.4;
+
+}
+
+.row-contact-line{
+    line-height: 20px;
+    margin-right: -21px;
+    margin-left: -15px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.row-email-line{
+    line-height: 20px;
+    margin-right: -21px;
+    margin-left: -15px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.row-message-line{
+    line-height: 20px;
+    margin-right: -21px;
+    margin-left: -15px;
+    margin-top:50px;
+    margin-bottom: 100px;
+}
+
+#send{
+
+}
+
+
+#col-sm-5{
+    line-height: 20px;
+    margin-right: -21px;
+    margin-left: -15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:50px
+}
+
+.row-connect{
+    height:200px;
+}
+
+#connect{
+    text-align:center;
+    text-decoration-line: underline;    
+    background-color:;
+    color:black;
+    opacity: 0.4;
+
+}
+
+#twitter{
+    margin-left: 95px;
+    margin-top: 15px;
+    margin-right: 25px;
+    height:151px;
+
+}
+
+.row-footer{
+    margin-top: 150px;
+}
+#footer{
+    text-align:center;
+}
+
+@media screen and (max-width: 980px) {
+    #contactinfo {
+        color: lightskyblue;
+    }
+
+@media screen and (max-width: 768px) {
+    #contactinfo {
+        color: lightcoral;
+        font-style:italic;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #contactinfo {
+        color:lightseagreen;
+        font-variant:small-caps;
+    }
+}
+

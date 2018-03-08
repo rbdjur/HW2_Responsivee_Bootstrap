@@ -1,0 +1,31 @@
+
+#Wave{
+    text-align:center;
+}
+
+#footer{
+    text-align:center;
+}
+
+@media screen and (max-width: 980px) {
+    #Wave {
+        color: lightskyblue;
+    }
+
+@media screen and (max-width: 768px) {
+    #Wave {
+        color: lightcoral;
+        font-style:italic;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #Wave {
+        color:lightseagreen;
+        font-variant:small-caps;
+        position:fixed;
+    }
+    .col-sm-4 {
+        margin-top:70px;
+    }
+}

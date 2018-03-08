@@ -1,0 +1,36 @@
+#Wavey{
+    text-align:center;
+    font-family:Old English;
+}
+
+#footer{
+    text-align:center;
+}
+
+#Bio{
+    text-align:center;
+}
+
+@media screen and (max-width: 980px) {
+    #Wavey {
+        color: lightskyblue;
+    }
+
+@media screen and (max-width: 768px) {
+    #Wavey {
+        color: lightcoral;
+        font-style:italic;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #Wavey {
+        color:lightseagreen;
+        font-variant:small-caps;
+        position:fixed;
+    }
+    #Bio {
+        float:left;
+        margin-top:35px;
+    }
+}
