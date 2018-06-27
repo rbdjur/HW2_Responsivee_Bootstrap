@@ -11,6 +11,10 @@
     text-align:center;
 }
 
+#bio {
+    text-align:center;
+}
+
 @media screen and (max-width: 980px) {
     #Wave {
         color: lightskyblue;
